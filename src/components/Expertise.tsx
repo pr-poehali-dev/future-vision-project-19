@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react"
-import { Home, Building, Armchair, Trees } from "lucide-react"
+import { Home, Building, Armchair, Trees, Shirt, BedDouble } from "lucide-react"
 import { HighlightedText } from "./HighlightedText"
 
 const expertiseAreas = [
@@ -11,7 +11,7 @@ const expertiseAreas = [
   {
     title: "Перетяжка кресел",
     description:
-      "Любимое кресло развалилось или потеряло вид? Перетянем, заменим поролон и пружины — снова будет мягким и красивым.",
+      "Любимое кресло развалилось или потеряло вид? Перетянем, заменим поролон — снова будет мягким и красивым.",
     icon: Armchair,
   },
   {
@@ -19,6 +19,18 @@ const expertiseAreas = [
     description:
       "Переделаем обеденные стулья, барные табуреты, пуфики и банкетки. Быстро и недорого — от 1 дня.",
     icon: Building,
+  },
+  {
+    title: "Чехлы на мебель",
+    description:
+      "Сошьём чехлы на диван, кресло или стул точно по размеру. Защитят мебель от загрязнений и износа, легко снимаются и стираются.",
+    icon: Shirt,
+  },
+  {
+    title: "Подушки и матрасы",
+    description:
+      "Изготовим декоративные подушки любой формы и размера, а также матрасы на заказ — под кровать, диван или детскую кроватку.",
+    icon: BedDouble,
   },
   {
     title: "Мебель для бизнеса",
@@ -64,7 +76,7 @@ export function Expertise() {
             <HighlightedText>перетягиваем</HighlightedText>
           </h2>
           <p className="text-muted-foreground text-lg leading-relaxed">
-            Работаем с любой мягкой мебелью — диваны, кресла, стулья, пуфы. Более 500 видов ткани на выбор.
+            Перетяжка, чехлы, подушки и матрасы на заказ. Более 500 видов ткани на выбор.
           </p>
         </div>
 
