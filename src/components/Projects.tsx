@@ -4,35 +4,35 @@ import { ArrowUpRight } from "lucide-react"
 const projects = [
   {
     id: 1,
-    title: "Резиденция Светлая",
-    category: "Жилой дом",
-    location: "Москва, Россия",
+    title: "Угловой диван",
+    category: "Перетяжка дивана",
+    location: "Велюр, серый",
     year: "2024",
-    image: "/images/hously-1.png",
+    image: "https://cdn.poehali.dev/projects/fc3dae5b-3440-4fab-a020-37a207968fe9/files/4cb50d7b-216f-4bc2-8942-d8923703e824.jpg",
   },
   {
     id: 2,
-    title: "Павильон Стекло",
-    category: "Коммерческий объект",
-    location: "Санкт-Петербург, Россия",
-    year: "2023",
-    image: "/images/hously-2.png",
+    title: "Кресло-качалка",
+    category: "Перетяжка кресла",
+    location: "Рогожка, бежевая",
+    year: "2024",
+    image: "https://cdn.poehali.dev/projects/fc3dae5b-3440-4fab-a020-37a207968fe9/files/ad57b307-5d1d-4b78-9cdd-26571eff0e30.jpg",
   },
   {
     id: 3,
-    title: "Дом у моря",
-    category: "Жилой дом",
-    location: "Сочи, Россия",
-    year: "2023",
-    image: "/images/hously-3.png",
+    title: "Обеденные стулья",
+    category: "Перетяжка стульев",
+    location: "Экокожа, чёрная",
+    year: "2024",
+    image: "https://cdn.poehali.dev/projects/fc3dae5b-3440-4fab-a020-37a207968fe9/files/19204e69-6d21-4cb5-8c9a-5ab659f6ac51.jpg",
   },
   {
     id: 4,
-    title: "Северный приют",
-    category: "Гостиничный комплекс",
-    location: "Казань, Россия",
+    title: "Диван в кафе",
+    category: "Мебель для бизнеса",
+    location: "Антивандальная ткань",
     year: "2024",
-    image: "/images/hously-4.png",
+    image: "https://cdn.poehali.dev/projects/fc3dae5b-3440-4fab-a020-37a207968fe9/files/31c8bf80-308d-40c8-8138-9fe2df26ec16.jpg",
   },
 ]
 
@@ -68,14 +68,14 @@ export function Projects() {
       <div className="container mx-auto px-6 md:px-12">
         <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-16">
           <div>
-            <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">Избранные работы</p>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium tracking-tight">Наши проекты</h2>
+            <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">Наши работы</p>
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium tracking-tight">До и после</h2>
           </div>
           <a
             href="#"
             className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors group"
           >
-            Смотреть все проекты
+            Смотреть все работы
             <ArrowUpRight className="w-4 h-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
           </a>
         </div>
