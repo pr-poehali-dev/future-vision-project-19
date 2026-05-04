@@ -45,12 +45,12 @@ export function Footer() {
             <h4 className="text-sm font-medium mb-4">Связаться</h4>
             <ul className="space-y-3 text-sm text-muted-foreground">
               <li>
-                <a href="tel:+74951234567" className="hover:text-foreground transition-colors">
-                  +7 (495) 123-45-67
+                <a href="tel:+79292771762" className="hover:text-foreground transition-colors">
+                  +7 (929) 277-17-62
                 </a>
               </li>
               <li>
-                <a href="https://wa.me/74951234567" className="hover:text-foreground transition-colors">
+                <a href="https://wa.me/79292771762" className="hover:text-foreground transition-colors">
                   WhatsApp
                 </a>
               </li>
